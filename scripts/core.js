@@ -116,15 +116,15 @@ const init = async () => {
 
 
     const general_tiles = new Image();
-    general_tiles.src = '/assets/imgs/general.png';
+    general_tiles.src = '../assets/imgs/general.png';
 
     const tileset = new Image();
-    tileset.src = '/assets/imgs/tiles.png';
+    tileset.src = '../assets/imgs/tiles.png';
 
     // const arteFinal = new Image();
     // arteFinal.src = '/assets/imgs/arteFinal.png'; // Caminho para a imagem do sprite
 
-    const fontePersonalizada = new FontFace("PixelFont", "url('/fonts/PixelifySans-VariableFont_wght.ttf')");
+    const fontePersonalizada = new FontFace("PixelFont", "url('../fonts/PixelifySans-VariableFont_wght.ttf')");
 
     fontePersonalizada.load().then(function (font) {
         document.fonts.add(font);

@@ -3,11 +3,11 @@ import { mostrarDialogo } from "../../../utils/eventBus.js";
 const TILE_SIZE = 75;
 
 export default {
-    x: TILE_SIZE * 34,
+    x: TILE_SIZE * 32,
     y: TILE_SIZE * 23,
-    w: 70,
-    h: 70,
-    color: "transparent",
+    w: 350,
+    h: 16,
+    color: "green",
     onTouch: function(player) {
       mostrarDialogo({ color: 'yellow', text: "Em busca do Chakras"},
         {

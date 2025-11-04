@@ -7,7 +7,7 @@ const TILE_SIZE = 75;
 
 const WorldScreen = new Screen({
     map,
-    playerStart:{ x: TILE_SIZE * 34, y: TILE_SIZE * 23 },
+    playerStart:{ x: TILE_SIZE * 34, y: TILE_SIZE * 23.5 },
     objects: objects,
     background: "#b2b3c8"
 });
