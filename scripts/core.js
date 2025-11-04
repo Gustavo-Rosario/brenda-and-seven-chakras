@@ -1,4 +1,4 @@
-import { eventBus } from 'scripts/utils/eventBus.js';
+import { eventBus } from './utils/eventBus.js';
 
 // =========================== GLOBALS ===========================
 const GAME_TITLE = "Adventure";
@@ -121,8 +121,8 @@ const init = async () => {
     const tileset = new Image();
     tileset.src = '/assets/imgs/tiles.png';
 
-    const arteFinal = new Image();
-    arteFinal.src = '/assets/imgs/arteFinal.png'; // Caminho para a imagem do sprite
+    // const arteFinal = new Image();
+    // arteFinal.src = '/assets/imgs/arteFinal.png'; // Caminho para a imagem do sprite
 
     const fontePersonalizada = new FontFace("PixelFont", "url('/fonts/PixelifySans-VariableFont_wght.ttf')");
 
@@ -671,7 +671,7 @@ const init = async () => {
 
         if (dialogBox.exibirFim) {
             // Desenha a imagem final
-            ctx.drawImage(arteFinal, x - 40, y + 150, 1680 / 2.5, 560 / 2.5);
+            // ctx.drawImage(arteFinal, x - 40, y + 150, 1680 / 2.5, 560 / 2.5);
         }
 
 

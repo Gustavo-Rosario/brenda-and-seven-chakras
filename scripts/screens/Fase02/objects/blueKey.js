@@ -7,7 +7,7 @@ export default{
     color: "red",
     condition: (player) => !player.keys.blue,
     sprite: {
-      src: "/assets/imgs/general.png", // Caminho para a imagem do sprite
+      src: "../assets/imgs/general.png", // Caminho para a imagem do sprite
       cutH: (32 * 5) * 0,
       cutW: (32 * 5) * 7,
       frame: 0, // Quadro atual do sprite

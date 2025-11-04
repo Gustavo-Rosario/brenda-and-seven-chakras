@@ -9,7 +9,7 @@ export default {
     isSolid: true,
     condition: (player) => !player.keys.green || !player.keys.blue || !player.keys.red || !player.keys.yellow,
     sprite: {
-        src: "/assets/imgs/general.png", // Caminho para a imagem do sprite
+        src: "../assets/imgs/general.png", // Caminho para a imagem do sprite
         width: SPRITE_SHEET_SIZE,
         height: SPRITE_SHEET_SIZE,
         cutH: SPRITE_SHEET_SIZE * 2,

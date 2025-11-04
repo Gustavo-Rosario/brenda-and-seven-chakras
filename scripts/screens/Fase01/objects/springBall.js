@@ -8,7 +8,7 @@ export default{
     h: 90,
     color: "red",
     sprite: {
-      src: "/assets/imgs/general.png", // Caminho para a imagem do sprite
+      src: "../assets/imgs/general.png", // Caminho para a imagem do sprite
       cutH: (32 * 5) * 0,
       cutW: (32 * 5) * 5,
       frame: 0, // Quadro atual do sprite

@@ -7,7 +7,7 @@ export default {
     y: TILE_SIZE * 23,
     w: 70,
     h: 70,
-    color: "green",
+    color: "transparent",
     onTouch: function(player) {
       mostrarDialogo({ color: 'yellow', text: "Em busca do Chakras"},
         {
