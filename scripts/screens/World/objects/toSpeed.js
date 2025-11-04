@@ -1,4 +1,4 @@
-import { alterarTela } from "/scripts/utils/eventBus.js";
+import { alterarTela } from "scripts/utils/eventBus.js";
 const TILE_SIZE = 75;
 export default {
     x: TILE_SIZE * 87.8,

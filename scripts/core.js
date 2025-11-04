@@ -1,4 +1,4 @@
-import { eventBus } from '/scripts/utils/eventBus.js';
+import { eventBus } from 'scripts/utils/eventBus.js';
 
 // =========================== GLOBALS ===========================
 const GAME_TITLE = "Adventure";
