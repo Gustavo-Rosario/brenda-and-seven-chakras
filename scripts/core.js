@@ -1,4 +1,4 @@
-import { eventBus } from '/scripts/utils/eventBus.js';
+import { eventBus } from './utils/eventBus.js';
 
 // =========================== GLOBALS ===========================
 const GAME_TITLE = "Adventure";
@@ -38,7 +38,7 @@ const init = async () => {
         vy: 0,
         lives: 3,
         spriteSheet: {
-            src: '/assets/imgs/player-spritesheet.png',
+            src: '../assets/imgs/player-spritesheet.png',
             actions: {
                 stand: { row: 0, frames: 8 },
                 walk: { row: 1, frames: 6 },
@@ -78,7 +78,7 @@ const init = async () => {
     const reloadScreen = async (NEW_SCREEN, options) => {
 
         // Carrega tela atual
-        SCREEN_MODULE = await import(`/scripts/screens/${NEW_SCREEN || SCREEN_NAME}/index.js`);
+        SCREEN_MODULE = await import(`./screens/${NEW_SCREEN || SCREEN_NAME}/index.js`);
         ACTUAL_SCREEN = SCREEN_MODULE.default;
 
         mapWidth = SCREEN_MODULE.default.map[0].length;
